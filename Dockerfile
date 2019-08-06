@@ -5,7 +5,7 @@ WORKDIR /opt/hako
 RUN apk add --no-cache g++ git make && \
     git clone https://github.com/google/jsonnet.git /tmp/jsonnet && \
     cd /tmp/jsonnet && \
-    git checkout v0.11.2 && \
+    git checkout v0.13.0 && \
     make libjsonnet.so && \
     cp libjsonnet.so /usr/local/lib/libjsonnet.so && \
     cp include/libjsonnet.h /usr/local/include/libjsonnet.h
