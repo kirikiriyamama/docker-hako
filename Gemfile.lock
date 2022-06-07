@@ -64,7 +64,7 @@ GEM
       aws-sdk-sns
       aws-sdk-ssm
       jsonnet
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     jsonnet (0.3.0)
       mini_portile2 (>= 2.2.0)
     mini_portile2 (2.4.0)
